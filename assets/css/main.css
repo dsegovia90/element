@@ -2,10 +2,13 @@
 body {
 	margin: 0;
 	background-color: white;
+	color: #09295e !important;
 }
 
 #franja {
-	width: 100%
+	position: absolute;
+	width: 100%;
+	/*z-index: 0;*/
 }
 
 #main-logo {
@@ -13,4 +16,44 @@ body {
 	top: 0;
 	left:0;
 	max-width: 50%;
+	/*z-index: 1;*/
+}
+
+.navbar-toggler {
+	position: absolute;
+	z-index: 4;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+nav {
+	position: fixed;
+	top: 35px;
+	right: 50px;
+}
+
+.nav-item {
+	margin: 0 .5vw;
+}
+
+.nav-link {
+	color: #09295e;
+	letter-spacing: 6px;
+}
+
+	
+
+.nav-link:hover {
+	color: black;	
+}
+
+.active {
+	border-bottom: 2px solid;	
+	/*color: blue !important;*/
 }
