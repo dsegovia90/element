@@ -19,8 +19,33 @@ body {
 	height: auto;
 }
 
+
+.overlay1 {
+	background-color: #cab49d;
+	position: absolute;
+	top: 20%;
+	left: 0;
+	width: 100%;
+	height: 20%;
+	z-index: 2000;
+}
+
+.overlay2 {
+	background-color: #cab49d;
+	position: absolute;
+	top: 60%;
+	left: 0;
+	width: 100%;
+	height: 20%;
+	z-index: 2000;
+}
+
+.carousel-inner {
+	position: relative;
+}
+
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev{
-display:block;
+	display:block;
 }
