@@ -45,7 +45,7 @@ body {
 }
 
 .img-fluid {
-	max-height: 500px;
+	width: 100%;
 	margin: auto;
 }
 
@@ -54,3 +54,41 @@ body {
 .carousel-item-prev{
 	display:block;
 }
+
+/*desktop css*/
+#desktop-logo-container {
+	padding: 25px;
+}
+
+#desktop-logo {
+	max-width: 80%;
+	display: inline; 
+}
+
+#desktop-nav, .nav-link {
+	padding-top: 0;
+	vertical-align: text-top;
+	font-weight: 800;
+}
+
+.nav-item {
+	margin: 0 5%;
+}
+
+.nav-link{
+	padding: 0;
+	vertical-align: text-top;
+	color: #032663;
+	letter-spacing: 3.5px;
+}
+
+.nav-link:hover, .nav-link.active{
+	color: white;
+}
+
+.nav-link.active{
+	border-bottom: 2px solid currentcolor;
+}
+
+
+

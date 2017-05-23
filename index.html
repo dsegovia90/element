@@ -8,40 +8,67 @@
 		<link rel='stylesheet' type='text/css' href='./assets/css/main.css'>
 	</head>
 	<body>
-		<nav class='navbar navbar-toggleable-md navbar-inverse bg-inverse'>
-			<button class='navbar-toggler navbar-toggler-right' type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
-				<span class='navbar-toggler-icon'></span>
-			</button>
-			<a class='navbar-brand' href='#'></a>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-		    <ul class="navbar-nav mr-auto">
-		      <li class="nav-item active">
-		        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">Link</a>
-		      </li>
-		    </ul>
-		  </div>
-		</nav>
-		<div class='container' id='mobile-logo-container'>
-			<a href='#'><img id='mobile-logo' class='img' src='./assets/img/ElementLogoMovil.png'></a>	
+		<!-- Mobile code -->
+		<div class='hidden-lg-up'>
+			<nav class='navbar navbar-toggleable-md navbar-inverse bg-inverse'>
+				<button class='navbar-toggler navbar-toggler-right' type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
+					<span class='navbar-toggler-icon'></span>
+				</button>
+				<a class='navbar-brand' href='#'></a>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav mr-auto">
+			      <li class="nav-item active">
+			        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Link</a>
+			      </li>
+			    </ul>
+			  </div>
+			</nav>
+			<div class='container' id='mobile-logo-container'>
+				<a href='#'><img id='mobile-logo' class='img' src='./assets/img/ElementLogoMovil.png'></a>	
+			</div>
+			<div class='container' id='carousel'>
+				<div id='carouselExampleSlidesOnly' class='carousel slide' data-ride='carousel'>
+				  <div class='carousel-inner' role='listbox'>
+				  	<div class='overlay1'></div>
+				  	<div class='overlay2'></div>
+					    <div class='carousel-item active'>
+					      <img class='d-block img-fluid' src='./assets/img/HomeCompleta.jpg' alt='First slide'>
+					    </div>
+					    <div class='carousel-item'>
+					      <img class='d-block img-fluid' src='./assets/img/HomeCompleta.jpg' alt='Second slide'>
+					    </div>
+					    <div class='carousel-item'>
+					      <img class='d-block img-fluid' src='./assets/img/HomeCompleta.jpg' alt='Third slide'>
+					    </div>
+					  </div>  
+				</div>
+			</div>
 		</div>
-		<div class='container' id='carousel'>
-			<div id='carouselExampleSlidesOnly' class='carousel slide' data-ride='carousel'>
-			  <div class='carousel-inner' role='listbox'>
-			  	<div class='overlay1'></div>
-			  	<div class='overlay2'></div>
-				    <div class='carousel-item active'>
-				      <img class='d-block img-fluid' src='./assets/img/red-woman-standing.jpg' alt='First slide'>
-				    </div>
-				    <div class='carousel-item'>
-				      <img class='d-block img-fluid' src='./assets/img/red-woman-standing.jpg' alt='Second slide'>
-				    </div>
-				    <div class='carousel-item'>
-				      <img class='d-block img-fluid' src='./assets/img/red-woman-standing.jpg' alt='Third slide'>
-				    </div>
-				  </div>  
+		<!-- Desktop code -->
+		<div class='hidden-md-down'>
+			<div class='container-fluid row' id='desktop-logo-container'>
+				<div class='col'>
+					<a href=''><img id='desktop-logo' src='./assets/img/ElementLogoDesktop.png'></a>
+				</div>	
+					<nav class='navbar col' id='desktop-nav'>
+						<ul class="nav justify-content-end">
+						  <li class="nav-item">
+						    <a class="nav-link active" href="#">HOME</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" href="#">LOOKS</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" href="#">SHOP</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" href="#">CONTACT</a>
+						  </li>
+						</ul>
+					</nav>
 			</div>
 		</div>
 	</body>
