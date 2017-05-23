@@ -44,6 +44,11 @@ body {
 	position: relative;
 }
 
+.img-fluid {
+	max-height: 500px;
+	margin: auto;
+}
+
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev{
