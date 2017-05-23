@@ -7,6 +7,11 @@ body {
 	height: 38px;
 }
 
+.nav-link-mobile {
+	padding-top: 10px !important; 
+	padding-bottom: 10px !important; 
+}
+
 #mobile-logo-container{
 	padding-top: 30px;
 	padding-bottom: 30px;
