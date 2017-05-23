@@ -13,5 +13,14 @@ body {
 }
 
 .img {
-	width: 100%;
+	display: block;
+	max-width: 100%;
+	width: auto;
+	height: auto;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+display:block;
 }
