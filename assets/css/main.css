@@ -45,6 +45,10 @@ body {
 	z-index: 2000;
 }
 
+#carousel{
+	padding-bottom: 110px;
+}
+
 .carousel {
 	padding-bottom: 110px;
 }
