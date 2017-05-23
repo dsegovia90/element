@@ -3,11 +3,15 @@ body {
 	background-color: #cab49d;
 }
 
-nav	{
-	margin-bottom: 10px;
-	/*height: 54px;*/
+.navbar-brand	{
+	height: 38px;
 }
 
-#mobile-logo {
+#mobile-logo-container{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.img {
 	width: 100%;
 }
