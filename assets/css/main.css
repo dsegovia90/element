@@ -1,6 +1,11 @@
+@font-face {
+	font-family: BrownStd-Regular;
+	src: url('../font/BrownStd-Regular.otf');
+}
 
 body {
 	background-color: #cab49d;
+	font-family: BrownStd-Regular !important;
 }
 
 .navbar-brand	{
@@ -130,6 +135,8 @@ body {
 	right: 35%;
 	width: 30%;;
 	opacity: 0.9 !important;
+	padding-right 0;
+	padding-left 0;
 }
 
 .btn-shop:hover {
