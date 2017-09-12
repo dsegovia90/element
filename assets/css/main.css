@@ -74,11 +74,9 @@ body {
 
 /*desktop css*/
 
-#desktop-header {
+.fadeIn-mouse {
 	visibility: hidden;
 }
-
-
 
 #desktop-logo-container {
 	padding: 25px;
@@ -130,12 +128,11 @@ body {
 	top: 50%;
 	left: 35%;
 	right: 35%;
-	width: 30%;
-	visibility: hidden;
+	width: 30%;;
 	opacity: 0.9 !important;
 }
 
-.btn-shop:hover{
+.btn-shop:hover {
 	color: white;
 	background-color: #265ACF;
 }
