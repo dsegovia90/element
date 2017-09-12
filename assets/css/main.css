@@ -146,7 +146,7 @@ body {
 	color: black;
 	z-index: 2;
 	position: absolute;
-	top: 50%;
+	top: 156px; /* modify depending on .img-desktop height. 350/2 - (38/2) */
 	transform: translateY(-50%);
 	left: 50%;
 	transform: translateX(-50%);
