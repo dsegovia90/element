@@ -95,6 +95,9 @@ body {
 .nav-link{
 	color: #032663;
 	letter-spacing: 3.5px;
+	padding: 0;
+	display: flex;
+	flex: 1;
 }
 
 .nav-link:hover, .nav-link.active{
@@ -119,9 +122,6 @@ body {
 	padding-left: 4%;
 }
 
-#desktop-main-images {
-	height: 100%;
-}
 
 #left-col {
 	padding: 0;
@@ -148,9 +148,8 @@ body {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
-	left: 0;
-	right: 0;
-	margin: auto;
+	left: 50%;
+	transform: translateX(-50%);
 	opacity: 0.9 !important;
 }
 
