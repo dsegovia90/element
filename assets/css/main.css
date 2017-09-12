@@ -83,21 +83,15 @@ body {
 	visibility: hidden;
 }
 
-#desktop-logo-container {
-	padding: 25px;
-}
-
 #desktop-logo {
-	max-width: 80%;
-	display: inline; 
+	max-width: 70%;
 }
 
 .nav-link{
 	color: #032663;
 	letter-spacing: 3.5px;
 	padding: 0;
-	display: flex;
-	flex: 1;
+	margin: 0 30px;
 }
 
 .nav-link:hover, .nav-link.active{
@@ -106,6 +100,11 @@ body {
 
 .nav-link.active{
 	border-bottom: 2px solid currentcolor;
+}
+
+#desktop-main-images {
+	max-width: 1200px;
+	padding: 30px 0;
 }
 
 #big-element-logo-div {
@@ -122,7 +121,6 @@ body {
 	padding-left: 4%;
 }
 
-
 #left-col {
 	padding: 0;
 	margin-right: 100px;
@@ -138,16 +136,18 @@ body {
 }
 
 .img-desktop {
+	height: 450px;
 	width: 100%;
 	object-fit: cover;
 }
 
 .btn-shop {
+	background-color: white;
 	color: black;
 	z-index: 2;
 	position: absolute;
 	top: 50%;
-	transform: translateY(-50%);
+	/* transform: translateY(-50%); */
 	left: 50%;
 	transform: translateX(-50%);
 	opacity: 0.9 !important;
