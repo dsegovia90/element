@@ -33,7 +33,6 @@ body {
 	height: auto;
 }
 
-
 .overlay1 {
 	background-color: #cab49d;
 	position: absolute;
@@ -117,11 +116,35 @@ body {
 	border-bottom: 2px solid currentcolor;
 }
 
+#big-element-logo-div {
+	z-index: 4;
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	padding-right: 4%;
+	padding-left: 4%;
+}
+
 #desktop-main-images {
 	height: 100%;
 }
 
-.img {
+#left-col {
+	padding-left: 0;
+	padding-right: 60px;
+}
+
+#mid-col {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#right-col {
+	padding-left: 60px;
+	padding-right: 0;
+}
+
+.img-desktop {
 	width: 100%;
 	object-fit: cover;
 }
@@ -135,8 +158,8 @@ body {
 	right: 35%;
 	width: 30%;;
 	opacity: 0.9 !important;
-	padding-right 0;
-	padding-left 0;
+	padding-right: 0;
+	padding-left: 0;
 }
 
 .btn-shop:hover {
