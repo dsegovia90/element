@@ -73,6 +73,11 @@ body {
 }
 
 /*desktop css*/
+
+#desktop-header {
+	visibility: hidden;
+}
+
 #desktop-logo-container {
 	padding: 25px;
 }
