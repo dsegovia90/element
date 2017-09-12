@@ -124,6 +124,7 @@ body {
 }
 
 .btn-shop {
+	color: black;
 	z-index: 2;
 	position: absolute;
 	top: 50%;
@@ -131,6 +132,12 @@ body {
 	right: 35%;
 	width: 30%;
 	visibility: hidden;
+	opacity: 0.9 !important;
+}
+
+.btn-shop:hover{
+	color: white;
+	background-color: #265ACF;
 }
 
 
