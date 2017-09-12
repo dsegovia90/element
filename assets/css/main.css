@@ -6,6 +6,7 @@
 body {
 	background-color: #cab49d;
 	font-family: BrownStd-Regular !important;
+	visibility: hidden;
 }
 
 .navbar-brand	{
@@ -117,10 +118,15 @@ body {
 }
 
 #big-element-logo-div {
-	z-index: 4;
+	z-index: 3;
+}
+
+#big-element-logo {
+	z-index: 3;
 	position: absolute;
 	width: 100%;
 	top: 50%;
+	transform: translateY(-50%);
 	padding-right: 4%;
 	padding-left: 4%;
 }
@@ -130,8 +136,8 @@ body {
 }
 
 #left-col {
-	padding-left: 0;
-	padding-right: 60px;
+	padding: 0;
+	margin-right: 60px;
 }
 
 #mid-col {
@@ -140,8 +146,8 @@ body {
 }
 
 #right-col {
-	padding-left: 60px;
-	padding-right: 0;
+	padding: 0;
+	margin-left: 60px;
 }
 
 .img-desktop {
@@ -154,12 +160,11 @@ body {
 	z-index: 2;
 	position: absolute;
 	top: 50%;
-	left: 35%;
-	right: 35%;
-	width: 30%;;
+	transform: translateY(-50%);
+	left: 0;
+	right: 0;
+	margin: auto;
 	opacity: 0.9 !important;
-	padding-right: 0;
-	padding-left: 0;
 }
 
 .btn-shop:hover {
