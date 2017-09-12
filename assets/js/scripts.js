@@ -3,8 +3,12 @@ $(document).ready(() => {
   console.log('ready!');
 
   $(document).mousemove(function(event) {
-    $('#big-element-logo-div').addClass('fadeOut');
-    $('.fadeIn-mouse').css('visibility', 'visible').addClass('fadeIn');
+    $('#big-element-logo-div').addClass('fadeOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', poop);
   })
-
+  
 })
+
+function poop() {
+  $('#big-element-logo-div').hide();
+  $('.fadeIn-mouse').css('visibility', 'visible').addClass('fadeIn');
+}
