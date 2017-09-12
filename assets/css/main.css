@@ -92,19 +92,7 @@ body {
 	display: inline; 
 }
 
-#desktop-nav, .nav-link {
-	padding-top: 0;
-	/* vertical-align: text-top; */
-	font-weight: 800;
-}
-
-.nav-item {
-	margin: 0 5%;
-}
-
 .nav-link{
-	padding: 0;
-	vertical-align: text-top;
 	color: #032663;
 	letter-spacing: 3.5px;
 }
@@ -137,17 +125,16 @@ body {
 
 #left-col {
 	padding: 0;
-	margin-right: 60px;
+	margin-right: 100px;
 }
 
 #mid-col {
-	padding-left: 0;
-	padding-right: 0;
+	padding: 0;
 }
 
 #right-col {
 	padding: 0;
-	margin-left: 60px;
+	margin-left: 100px;
 }
 
 .img-desktop {
