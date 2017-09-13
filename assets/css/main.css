@@ -142,6 +142,10 @@ body {
 	margin-left: 100px;
 }
 
+.carousel {
+	padding: 0;
+}
+
 .img-desktop {
 	height: 350px;
 	width: 100%;
