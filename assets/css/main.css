@@ -84,7 +84,7 @@ body {
 }
 
 #desktop-header {
-	padding-top: 30px;
+	padding-top: 50px;
 }
 
 #desktop-logo {
@@ -149,23 +149,33 @@ body {
 }
 
 .btn-shop {
-	background-color: white;
-	color: black;
+	color: white;
+	white-space: nowrap;
+	letter-spacing: 0.4rem;
+	border-bottom: solid 2px white;
 	z-index: 2;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	opacity: 0.9 !important;
+}
+
+.btn-shop h6 {
+	line-height: 75%;
+}
+
+.btn-shop:hover, .btn-shop:visited, .btn-shop:active {
+	text-decoration: none;
+	color: white;
+	font-weight: 1200;
 }
 
 .btn-shop:hover {
-	color: white;
-	background-color: #265ACF;
+
 }
 
 .row {
-	padding-bottom: 30px;
+	padding-bottom: 50px;
 }
 
 .jumbotron-text {
