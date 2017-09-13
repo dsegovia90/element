@@ -152,7 +152,7 @@ body {
 	object-fit: cover;
 }
 
-.btn-shop {
+.text-shop {
 	color: white;
 	white-space: nowrap;
 	letter-spacing: 0.4rem;
@@ -164,17 +164,17 @@ body {
 	transform: translate(-50%, -50%);
 }
 
-.btn-shop h6 {
+.text-shop h6 {
 	line-height: 75%;
 }
 
-.btn-shop:hover, .btn-shop:visited, .btn-shop:active {
+.text-shop:hover, .text-shop:visited, .text-shop:active {
 	text-decoration: none;
 	color: white;
 	font-weight: 1200;
 }
 
-.btn-shop:hover {
+.text-shop:hover {
 
 }
 
