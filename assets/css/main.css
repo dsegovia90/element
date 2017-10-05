@@ -182,6 +182,10 @@ body {
 	padding-bottom: 50px;
 }
 
+.last-row {
+	padding-bottom: 0;
+}
+
 .jumbotron-text {
 	letter-spacing: 0.5rem;
 	color: white;
