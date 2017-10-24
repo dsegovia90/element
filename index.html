@@ -15,45 +15,104 @@
 <body>
 	<!-- Desktop code -->
 	<div class="container">
-		<div class="row image-left margin-break">
-			<div class="break-on-sm col-sm-5 align-self-center">
-				<img class="img" src="http://cumbrianrun.co.uk/wp-content/uploads/2014/02/default-placeholder.png" alt="placeholder image">
-			</div>
-			<div class="col-sm-6 align-self-center text-box-border">
-				<h5 class="white-text">THE TEAM</h5>
-				<p>It's nice to meet you.</p>
-				<p>
-					At Element, we hold the same family values that we practice at home. Especially staying healthy and fit. That is why we bring
-					you Activewear with a stylish twist. We want to feel good and look good as well.
-				</p>
-			</div>
-		</div>
+		<h3 id="favorite-title" class="text-center">OUR FAVORITE PRODUCTS</h3>
 	</div>
 	<div class="container">
-		<div class="row image-right margin-break">
-			<div class="break-on-sm offset-sm-1 col-sm-6 align-self-center text-box-border">
-				<h5 class="white-text">THE TEAM</h5>
-				<p>It's nice to meet you.</p>
-				<p>
-					At Element, we hold the same family values that we practice at home. Especially staying healthy and fit. That is why we bring
-					you Activewear with a stylish twist. We want to feel good and look good as well.
-				</p>
-			</div>
-			<div class="col-sm-5 align-self-center">
-				<img class="img" src="http://cumbrianrun.co.uk/wp-content/uploads/2014/02/default-placeholder.png" alt="placeholder image">
-			</div>
-		</div>
-	</div>
-	<div id="favorite-carousel" class="container">
-		<h3 class="text-center">OUR FAVORITE PRODUCTS</h3>
-		<div class="carousel slide" data-ride="carousel">
-			<div class="carousel-inner active">
-				<img class="img-desktop" src="http://cumbrianrun.co.uk/wp-content/uploads/2014/02/default-placeholder.png" alt="placeholder image">
-				<div class="favorite-text-box align-self-center">
-					<p>Lorem ipsum</p>
+		<div id='favorites-desktop-carousel' class="carousel slide hidden-md-down" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#favorites-desktop-carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#favorites-desktop-carousel" data-slide-to="1"></li>
+				<li data-target="#favorites-desktop-carousel" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="carousel-inside d-flex align-items-center">
+						<div class="favorite-text-box text-center">
+							<p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+								aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							<a href="#" class="btn text-center">Go somewhere</a>
+						</div>
+						<img class="img-desktop" src="http://cumbrianrun.co.uk/wp-content/uploads/2014/02/default-placeholder.png" alt="placeholder image">
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="carousel-inside d-flex align-items-center">
+						<div class="favorite-text-box text-center">
+							<p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+								aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							<a href="#" class="btn text-center">Go somewhere</a>
+						</div>
+						<img class="img-desktop" src="http://cumbrianrun.co.uk/wp-content/uploads/2014/02/default-placeholder.png" alt="placeholder image">
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="carousel-inside d-flex align-items-center">
+						<div class="favorite-text-box text-center">
+							<p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+								aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							<a href="#" class="btn text-center">Go somewhere</a>
+						</div>
+						<img class="img-desktop" src="http://cumbrianrun.co.uk/wp-content/uploads/2014/02/default-placeholder.png" alt="placeholder image">
+					</div>
 				</div>
 			</div>
+			<a class="carousel-control-prev" href="#favorites-desktop-carousel" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#favorites-desktop-carousel" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
 		</div>
+
+		<div id="favorites-mobile-carousel" class="carousel slide hidden-lg-up" data-ride="carousel">
+			<ol id="carousel-indicators-mobile" class="carousel-indicators">
+				<li data-target="#favorites-mobile-carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#favorites-mobile-carousel" data-slide-to="1"></li>
+				<li data-target="#favorites-mobile-carousel" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="card">
+						<img class="card-img-top" src="http://cumbrianrun.co.uk/wp-content/uploads/2014/02/default-placeholder.png" alt="Card image cap">
+						<div class="card-body text-center">
+							<p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolormmodo consequat.</p>
+							<a href="#" class="btn">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="card">
+						<img class="card-img-top" src="http://cumbrianrun.co.uk/wp-content/uploads/2014/02/default-placeholder.png" alt="Card image cap">
+						<div class="card-body text-center">
+							<p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+								aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							<a href="#" class="btn">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="card">
+						<img class="card-img-top" src="http://cumbrianrun.co.uk/wp-content/uploads/2014/02/default-placeholder.png" alt="Card image cap">
+						<div class="card-body text-center">
+							<p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+								aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							<a href="#" class="btn">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#favorites-mobile-carousel" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#favorites-mobile-carousel" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+
 	</div>
 </body>
 
